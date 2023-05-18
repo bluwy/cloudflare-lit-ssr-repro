@@ -1,0 +1,15 @@
+{
+  "name": "node-starter",
+  "version": "0.0.0",
+  "scripts": {
+    "dev": "wrangler dev",
+    "build": "wrangler deploy --outdir dist --dry-run",
+    "patch": "node patch.mjs",
+    "unpatch": "node patch.mjs --undo"
+  },
+  "devDependencies": {
+    "@lit-labs/ssr": "^3.1.2",
+    "lit": "^2.7.4",
+    "wrangler": "^3.0.0"
+  }
+}

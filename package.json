@@ -10,6 +10,6 @@
   "devDependencies": {
     "@lit-labs/ssr": "^3.1.2",
     "lit": "^2.7.4",
-    "wrangler": "^3.1.1"
+    "wrangler": "^3.19.0"
   }
 }
